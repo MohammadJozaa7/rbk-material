@@ -3,46 +3,10 @@
     font-family: 'Montserrat';
 }
 h4{
-    color: #b41a83;
+    color: white;
 }
 hr{
     width: 50%;
-}
-.pink{
-    color: #b41a83;
-    text-align: center;
-    font-size: 5vw;
-}
-.companySlide{
-    width: 100%;
-    padding: 3% 12%;
-}
-.Arrow{
-    width: 4.16%;
-}
-#LArrow{
-    background-image: url("../../../../../../assets/RBK/guys.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 70%;
-    margin: 0;
-    padding: 0;
-    float:left;
-    background-position: center;
-    cursor: pointer;
-}
-#RArrow{
-    background-image: url("../../../../../../assets/RBK/cohort2.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 70%;
-    margin: 0;
-    padding: 0;
-    float:right;
-    background-position: center;
-    cursor: pointer;
 }
 .col{
     padding: 0;
@@ -58,30 +22,12 @@ hr{
     padding: 10% 5%;
     margin: 0;
 }
-.Arrow{
-    background-color: white;
-    z-index: 10;
-}
 .Our-Grads{
     width: 100%;
     padding: 0;
     height: 400px;
 }
-#Stories{
-    background-image: url("../../../../../../assets/RBK/guys.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 40%;
-    height: 100%;
-    position: relative;
-    border-right: 6px solid white;
-}
 @media screen and (max-width: 600px) {
-    #Stories{
-        width: 100% !important;
-        border-right: 0 !important;
-        border-bottom: 6px solid white !important;
-    }
     #GradsImage{
         width: 100% !important;
         height: 50% !important;
@@ -90,19 +36,19 @@ hr{
         width: 50% !important;
         height: 100% !important;
         border-bottom: 0 !important;
-        border-right: 3px solid white !important;
+        border-right: 3px solid #fc6767 !important;
     }
     #GradsDownImage{
         width: 50% !important;
         height: 100% !important;
         border-top: 0 !important;
-        border-left: 3px solid white !important;
+        border-left: 3px solid #fc6767 !important;
     }
     #GradsSlide{
         width: 100% !important;
         height: 100% !important;
         border-left: 0 !important;
-        border-top: 6px solid white !important;
+        border-top: 6px solid #fc6767 !important;
         padding: 10% 10% 5% 10% !important;
     }
     .companySlide{
@@ -112,37 +58,12 @@ hr{
         font-size: medium !important;
     }
 }
-#SuccessStories{
-    height: 45%;
-    background-color: white;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    color: black;
-    display: flex;
-    align-items: center;
-}
-#SuccessStoriesWord{
-    padding: 7%;
-    margin: 0;
-    font-size: large;
-    width: fit-content;
-}
-#SuccessStoriesButton{
-    background-color: #b41a83;
-    width: 33.3%;
-    height: 33.3%;
-    text-align: center;
-    padding: 2%;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
+
 a{
-    color: white;
+    color: #fc6767;
 }
 a:hover{
-    color: white;
+    color: #fc6767;
 }
 #GradsImage{
     width: 20%;
@@ -152,7 +73,8 @@ a:hover{
     background-image: url("../../../../../../assets/RBK/cohort4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    border-bottom: 3px solid white;
+    /* border-bottom: 3px solid white; */
+    /* border-top: 6px solid white; */
     height: 50%;
     width: 100%;
 }
@@ -160,23 +82,29 @@ a:hover{
     background-image: url("../../../../../../assets/RBK/cohort2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    border-top: 3px solid white;
+    /* border-top: 3px solid white; */
+    /* border-bottom: 6px solid white; */
     height: 50%;
     width: 100%;
 }
 #GradsSlide{
-    background-color: #1e3f49;
-    border-right: 6px solid white;
-    border-left: 6px solid white;
+    background-color: #fc6767;
+    /* border-right: 6px solid white; */
+    /* border-left: 6px solid white; */
+    /* border-top: 6px solid white; */
+    /* border-bottom: 6px solid white; */
     width: 40%;
     padding: 4% 4% 2% 4%;
     position: relative;
+    color: white;
+    font-size: 20px;
+    font-family: inherit
 }
 
 #GradSlideTop{
     text-align: justify;
     line-height: 1;
-    height: 60%;
+    height: 90%;
     color: white;
     overflow: auto;
 }
@@ -214,15 +142,6 @@ p{
     width: fit-content;
     font-size: small;
 }
-#gradName{
-    color: white;
-}
-#gradSpecialized{
-    color: #b41a83;
-}
-#gradCompany{
-    color: #0c2930;
-}
 .carousel{
     height: 100%;
     position: relative;
@@ -240,7 +159,7 @@ p{
   position: relative;
   top: 20px;
   margin: 0 5px;
-  background-color: #0c2930;
+  background-color: #fc6767;
 }
 .carousel-indicators .active {
     background-color: #b41a83;
