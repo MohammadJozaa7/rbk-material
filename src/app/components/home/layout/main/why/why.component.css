@@ -166,19 +166,13 @@ a:hover{
 }
 #GradsSlide{
     background-color: #1e3f49;
+    border-right: 6px solid white;
     border-left: 6px solid white;
     width: 40%;
     padding: 4% 4% 2% 4%;
     position: relative;
 }
-#GradsSlide:before {
-  content: '';
-  position: absolute;
-  bottom: 0; right: 0;
-  border-bottom: 80px solid #b41a83;
-  border-left: 80px solid #1e3f49;
-  width: 0;
-}
+
 #GradSlideTop{
     text-align: justify;
     line-height: 1;
@@ -255,7 +249,8 @@ p{
 .why{
 	min-height: 200px;
     overflow: hidden;
-    background: url("../../../../../../assets/RBK/why1.jpg");
+    background: url("../../../../../../assets/RBK/background_00000.gif");
+    /* background: url("../../../../../../assets/RBK/why1.jpg"); */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -263,7 +258,8 @@ p{
 .future{
 	min-height: 200px;
     overflow: hidden;
-    background: url("../../../../../../assets/RBK/future.jpg");
+    background: url("../../../../../../assets/RBK/background_00000.gif");
+    /* background: url("../../../../../../assets/RBK/future.jpg"); */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
