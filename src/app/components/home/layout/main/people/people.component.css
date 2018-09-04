@@ -1,3 +1,51 @@
-.people {
-    margin-top: 15%;
+div.gallery img {
+	width: 70%;
+	height: 60%;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.grid{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.responsive {
+	padding: 0 6px;
+	float: center;
+	width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+	.responsive {
+		width: 49.99999%;
+		margin: 6px 0;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.responsive {
+		width: 100%;
+	}
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.people{
+	min-height: 200px;
+    overflow: hidden;
+    background: url("../../../../../../assets/RBK/night.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

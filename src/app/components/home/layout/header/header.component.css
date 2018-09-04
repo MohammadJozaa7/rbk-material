@@ -6,9 +6,12 @@ header {
     height: 100vh;
 }
 
+
 .header-text {
     color: #aaa;
     text-align: center;
+    margin-left: 150px;
+    width:70%;
 }
 
 .title {
@@ -17,9 +20,13 @@ header {
     text-align: center;
 }
 
+
+
 .image {
     height: 60px;
+
 }
+
 
 .bg1 {
     background: url(https://awllpaper.com/wp-content/uploads/2018/03/dark-pink-flower-wallpaper-colorful-flowers-dark-background-16164.jpg);
@@ -79,7 +86,6 @@ header {
 
 .header-image {
     max-width: 200px;
-    margin-top: 100px;
 }
 
 header {

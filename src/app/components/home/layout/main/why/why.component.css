@@ -1,51 +1,12 @@
-/* section {
-    margin-top: 10%;
-}
-.card-content {
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-.card-text {
-    margin: 20px;
-    padding: 5%;
-    border: solid #fc6767 1px;
-    border-radius: 15px;
-}
-
-.m-card {
-    margin: 100px auto;
-    min-height: 400px;
-}
-
-
-.cards-why {
-    overflow: hidden;
-}
-
-@media(max-width: 768px) {
-    .card-content {
-        grid-template-columns: 100%;
-    }
-}
-
-
- */
- *{
+*{
     box-sizing: border-box;
     font-family: 'Montserrat';
 }
+h4{
+    color: #b41a83;
+}
 hr{
     width: 50%;
-}
-.future {
-    min-height: 200px;
-    overflow: hidden;
-    /* background: url("../../../../../../assets/RBK/night.jpeg"); */
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size:20px
 }
 .pink{
     color: #b41a83;
@@ -107,7 +68,7 @@ hr{
     height: 400px;
 }
 #Stories{
-    background-image: url("../../../../../../assets/RBK/cohort3.jpg");
+    background-image: url("../../../../../../assets/RBK/guys.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 40%;
@@ -152,19 +113,19 @@ hr{
     }
 }
 #SuccessStories{
-    height: 25%;
-    background-color: rgba(30, 63, 73,0.7);
+    height: 45%;
+    background-color: white;
     width: 100%;
     position: absolute;
     bottom: 0;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
 }
 #SuccessStoriesWord{
     padding: 7%;
     margin: 0;
-    font-size: x-large;
+    font-size: large;
     width: fit-content;
 }
 #SuccessStoriesButton{
