@@ -251,3 +251,20 @@ p{
 .carousel-indicators .active {
     background-color: #b41a83;
 }
+
+.why{
+	min-height: 200px;
+    overflow: hidden;
+    background: url("../../../../../../assets/RBK/why1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.future{
+	min-height: 200px;
+    overflow: hidden;
+    background: url("../../../../../../assets/RBK/future.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
